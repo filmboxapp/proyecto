@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08091b">
+  <meta name="description" content="Un viaje interactivo por la energía que mueve la vida cotidiana, desde la escala humana hasta el universo.">
+  <title>La energía en la vida diaria · Un viaje espacio-tiempo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="space-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Ir al inicio"><span class="brand-mark">✦</span> UMBRAL <span class="brand-sub">/ energía & vida</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#sistema">Sistema solar</a><a href="#viaje">El viaje</a><a href="#formas">Energía</a><a href="#video">Video</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-stars" aria-hidden="true"></div>
+      <div class="hero-copy" data-aos="fade-up" data-aos-duration="900">
+        <p class="eyebrow"><span class="eyebrow-line"></span> PROYECTO ESCOLAR · CIENCIA PARA LA VIDA</p>
+        <h1>Todo lo que vive<br>está hecho de <em>energía.</em></h1>
+        <p class="hero-description">Una historia que empieza en tu cuerpo, atraviesa tu hogar y se pierde entre las estrellas. ¿Te animas a seguir su rastro?</p>
+        <div class="hero-actions"><span class="hero-caption"><i></i> Desliza para explorar</span></div>
+      </div>
+      <div class="orbit-scene" aria-label="Ilustración de un planeta rodeado por órbitas">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="planet"><div class="planet-glow"></div><div class="planet-land"></div></div>
+        <span class="orbit-dot dot-a"></span><span class="orbit-dot dot-b"></span><span class="orbit-dot dot-c"></span>
+        <div class="orbit-label label-a">E = mc² <small>materia y energía</small></div>
+        <div class="orbit-label label-b">∞ <small>en transformación</small></div>
+      </div>
+    </section>
+
+    <section class="solar section-shell" id="sistema">
+      <div class="section-index" data-aos="fade-right"><span>01</span><i></i> UNA VENTANA AL SISTEMA SOLAR</div>
+      <div class="solar-heading" data-aos="fade-up"><div><h2>Ocho mundos.<br><em>Una estrella.</em></h2></div><p>Explora nuestro vecindario cósmico. Selecciona un planeta para descubrir un dato esencial.</p></div>
+      <div class="solar-explorer" data-aos="zoom-in">
+        <div class="solar-map" aria-label="Representación interactiva del sistema solar">
+          <div class="sun-core"><span>☼</span><small>SOL</small></div>
+          <div class="solar-orbit orbit-mercury"><button class="solar-body mercury" data-planet="mercurio" aria-label="Explorar Mercurio"></button></div>
+          <div class="solar-orbit orbit-venus"><button class="solar-body venus" data-planet="venus" aria-label="Explorar Venus"></button></div>
+          <div class="solar-orbit orbit-earth"><button class="solar-body earth" data-planet="tierra" aria-label="Explorar la Tierra"></button></div>
+          <div class="solar-orbit orbit-mars"><button class="solar-body mars" data-planet="marte" aria-label="Explorar Marte"></button></div>
+          <div class="solar-orbit orbit-jupiter"><button class="solar-body jupiter" data-planet="jupiter" aria-label="Explorar Júpiter"></button></div>
+          <div class="solar-orbit orbit-saturn"><button class="solar-body saturn" data-planet="saturno" aria-label="Explorar Saturno"><i></i></button></div>
+          <div class="solar-orbit orbit-uranus"><button class="solar-body uranus" data-planet="urano" aria-label="Explorar Urano"></button></div>
+          <div class="solar-orbit orbit-neptune"><button class="solar-body neptune" data-planet="neptuno" aria-label="Explorar Neptuno"></button></div>
+          <span class="map-note">DISTANCIAS Y TAMAÑOS NO A ESCALA</span>
+        </div>
+        <aside class="planet-info" aria-live="polite"><span class="planet-kicker" id="planet-type">ESTRELLA · CENTRO DEL SISTEMA</span><h3 id="planet-name">El Sol</h3><p id="planet-description">Nuestra estrella contiene casi toda la masa del sistema solar. Su luz y calor hacen posible gran parte de la vida en la Tierra.</p><div class="planet-fact"><span>✦</span><p id="planet-fact">La energía solar viaja hasta nuestro planeta en unos 8 minutos.</p></div><div class="planet-counter" id="planet-counter">ESTRELLA CENTRAL <b>☼</b></div></aside>
+      </div>
+      <p class="solar-caption" data-aos="fade-up">El Sol y los planetas forman parte de un sistema unido por la gravedad y por el intercambio de energía.</p>
+    </section>
+
+    <section class="intro section-shell" id="viaje">
+      <div class="section-index" data-aos="fade-right"><span>02</span><i></i> EL UNIVERSO EN MOVIMIENTO</div>
+      <div class="intro-grid">
+        <h2 data-aos="fade-up">Una fuerza invisible.<br><em>Un mundo en marcha.</em></h2>
+        <div class="intro-text" data-aos="fade-up" data-aos-delay="120"><p>La energía es la capacidad de producir cambios. No podemos verla directamente, pero sí reconocer sus efectos: una lámpara que se enciende, una pelota que rueda, una semilla que brota.</p><p>En cada instante, la energía cambia de forma y pasa de un sistema a otro. La vida cotidiana está llena de esas pequeñas transformaciones.</p></div>
+      </div>
+      <div class="fact-strip" data-aos="zoom-in"><span class="fact-icon">✧</span><p><b>Una regla fundamental:</b> la energía no se crea ni se destruye; solo se transforma o se transfiere.</p><span class="fact-note">LEY DE CONSERVACIÓN</span></div>
+    </section>
+
+    <section class="forms section-shell" id="formas">
+      <div class="section-index" data-aos="fade-right"><span>03</span><i></i> LAS FORMAS DEL CAMBIO</div>
+      <div class="section-heading" data-aos="fade-up"><h2>La energía tiene<br><em>muchos rostros.</em></h2><p>Haz clic en una tarjeta para descubrir cómo aparece en tu día.</p></div>
+      <div class="energy-grid">
+        <button class="energy-card card-sun" data-aos="fade-up" data-energy="solar"><span class="card-number">01 / RADIANTE</span><span class="card-symbol">☼</span><strong>Solar</strong><span class="card-short">La luz que alimenta la vida.</span><span class="card-more">El Sol emite energía en forma de radiación. Las plantas la capturan para realizar la fotosíntesis y los paneles solares pueden transformarla en electricidad.</span><span class="card-arrow">↗</span></button>
+        <button class="energy-card card-motion" data-aos="fade-up" data-aos-delay="90" data-energy="kinetic"><span class="card-number">02 / MOVIMIENTO</span><span class="card-symbol">⤳</span><strong>Cinética</strong><span class="card-short">Todo lo que se mueve.</span><span class="card-more">Una bicicleta en marcha o el viento que mueve las hojas tienen energía cinética. Cuanto más rápido se mueve un objeto, mayor es su energía cinética.</span><span class="card-arrow">↗</span></button>
+        <button class="energy-card card-thermal" data-aos="fade-up" data-aos-delay="180" data-energy="thermal"><span class="card-number">03 / TEMPERATURA</span><span class="card-symbol">♨</span><strong>Térmica</strong><span class="card-short">El calor que se transfiere.</span><span class="card-more">Al calentar agua, la energía térmica aumenta el movimiento de sus partículas. También pasa de un cuerpo caliente a otro más frío.</span><span class="card-arrow">↗</span></button>
+        <button class="energy-card card-electric" data-aos="fade-up" data-aos-delay="270" data-energy="electric"><span class="card-number">04 / CORRIENTE</span><span class="card-symbol">ϟ</span><strong>Eléctrica</strong><span class="card-short">La corriente que conecta.</span><span class="card-more">El flujo de cargas eléctricas hace funcionar el refrigerador, carga tu teléfono y enciende las luces de casa.</span><span class="card-arrow">↗</span></button>
+        <button class="energy-card card-chemical" data-aos="fade-up" data-aos-delay="90" data-energy="chemical"><span class="card-number">05 / ENLACES</span><span class="card-symbol">◈</span><strong>Química</strong><span class="card-short">Energía guardada en la materia.</span><span class="card-more">Los alimentos almacenan energía química. Tu cuerpo la transforma para moverse, mantener su temperatura y pensar.</span><span class="card-arrow">↗</span></button>
+        <button class="energy-card card-sound" data-aos="fade-up" data-aos-delay="180" data-energy="sound"><span class="card-number">06 / VIBRACIÓN</span><span class="card-symbol">)))</span><strong>Sonora</strong><span class="card-short">Ondas que podemos escuchar.</span><span class="card-more">Una voz o una canción producen vibraciones que viajan por el aire y llegan hasta nuestros oídos como ondas sonoras.</span><span class="card-arrow">↗</span></button>
+      </div>
+      <p class="card-hint" aria-live="polite">Selecciona una forma de energía para ver su ejemplo cotidiano.</p>
+    </section>
+
+    <section class="daily section-shell" id="explora">
+      <div class="daily-glow" aria-hidden="true"></div>
+      <div class="section-index" data-aos="fade-right"><span>04</span><i></i> TU DÍA, ENERGÍA EN ACCIÓN</div>
+      <div class="daily-layout">
+        <div data-aos="fade-up"><h2>El universo también<br>vive <em>en tu rutina.</em></h2><p>Desde que despiertas, la energía cambia de forma a tu alrededor. Mueve el control para observar una estimación ilustrativa del consumo de un aparato.</p><div class="daily-note"><span>✦</span> La energía eléctrica suele medirse en kilowatt-hora (kWh).</div></div>
+        <div class="energy-meter" data-aos="zoom-in" data-aos-delay="120">
+          <div class="meter-top"><span>EXPLORADOR DE ENERGÍA</span><span class="meter-live"><i></i> EN VIVO</span></div>
+          <label for="hours">Horas de uso al día <b id="hours-value">3 h</b></label>
+          <input id="hours" type="range" min="1" max="12" value="3" aria-label="Horas de uso al día">
+          <div class="range-labels"><span>1 hora</span><span>12 horas</span></div>
+          <div class="meter-result"><div><span>CONSUMO ESTIMADO</span><strong><span id="kwh-value">0.45</span> <small>kWh/día</small></strong></div><span class="meter-orb">ϟ</span></div>
+          <p class="meter-foot">Ejemplo de un aparato de 150 W. El resultado es orientativo: el consumo real depende de la potencia y el tiempo de uso.</p>
+        </div>
+      </div>
+      <div class="timeline" data-aos="fade-up"><div class="timeline-item"><span class="timeline-time">07:00</span><i class="timeline-icon">☼</i><div><b>La mañana</b><p>La luz solar entra por la ventana.</p></div></div><div class="timeline-item"><span class="timeline-time">13:00</span><i class="timeline-icon">⌁</i><div><b>La comida</b><p>Tu cuerpo obtiene energía de los alimentos.</p></div></div><div class="timeline-item"><span class="timeline-time">20:00</span><i class="timeline-icon">ϟ</i><div><b>La noche</b><p>La electricidad ilumina tu espacio.</p></div></div></div>
+    </section>
+
+    <section class="video-section section-shell" id="video">
+      <div class="section-index" data-aos="fade-right"><span>05</span><i></i> SALA DE PROYECCIÓN</div>
+      <div class="video-heading" data-aos="fade-up"><div><h2>Una idea en movimiento.</h2><p>La energía también se cuenta en imágenes.</p></div><span class="video-tag">PROYECCIÓN · 01</span></div>
+      <div class="video-frame-wrap" data-aos="zoom-in"><div class="video-frame-top"><div><i></i><i></i><i></i></div><span>TRANSMISIÓN · VISTA PREVIA</span><span class="frame-code">UMBRAL / PLAY</span></div><div class="video-frame"><iframe id="project-video" src="about:blank" title="Video del proyecto escolar: La energía en la vida diaria" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe></div></div>
+      <div class="video-bottom"><button id="download-video" class="button button-outline" hidden>Descargar video <span>↓</span></button></div>
+    </section>
+
+    <section class="closing section-shell" data-aos="fade-up"><div class="closing-star">✦</div><p class="eyebrow">EL VIAJE CONTINÚA</p><h2>La próxima transformación<br>puede empezar <em>contigo.</em></h2><p>Observar la energía es descubrir las conexiones invisibles que hacen posible cada día.</p><div class="closing-orbit" aria-hidden="true"></div></section>
+  </main>
+
+  <footer><span>PROYECTO ESCOLAR · LA ENERGÍA EN LOS PROCESOS DE LA VIDA DIARIA</span><span>HECHO PARA EXPLORAR <b>✧</b></span></footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
